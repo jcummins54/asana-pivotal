@@ -1,9 +1,5 @@
 import csv
-import logging
 from datetime import datetime
-
-logging.basicConfig(filename='output.log', level=logging.DEBUG)
-logging.debug('foo')
 
 
 def change_date(date_str):
